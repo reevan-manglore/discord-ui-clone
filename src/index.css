@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .landing-page-bg{
+    background-image: url("./assets/center_bg_landing_header.svg"),url("./assets/tiny_stars_landing.svg"),url("./assets/left_bg_landing_header.svg"),url("./assets/right_bg_landing_header.svg");
+    background-position: center ,center, bottom left,bottom right;
+    background-repeat: no-repeat, no-repeat,no-repeat,no-repeat;
+    background-size: cover,cover, 30%, 40%;
+} */
+.landing-cover-page-bg{
+    background-image:url("./assets/left_bg_landing_header.svg"),url("./assets/right_bg_landing_header.svg"), url("./assets/center_bg_landing_header.svg"),url("./assets/tiny_stars_landing.svg");
+    background-position: bottom 0px left -20%,bottom  right -20%, center ,center;
+    background-repeat: no-repeat, no-repeat,no-repeat,no-repeat;
+    background-size:40%,40%, cover,contain;
+}
