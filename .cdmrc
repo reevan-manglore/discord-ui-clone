@@ -1,5 +1,5 @@
 tabs: ['src/App.jsx','README.md']
 live-reload-browser: false
 terminal-one: |
-    yarn install
-    yarn dev
+    npm install
+    npm run dev

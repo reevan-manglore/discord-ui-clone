@@ -1,25 +1,18 @@
 import SideNav from "./SideNav.jsx"
-import SearchBox from "./SearchBox.jsx"
-import ActivityArea from "./ActivityArea.jsx"
+import { Outlet } from "react-router-dom"
 
 
 
 
 function index() {
   return (
-    <div className="text-center text-6xl flex h-screen   ">
+    <div className="text-center  flex h-screen   ">
       <div className="flex-none bg-[#202225]">
         <SideNav/>
       </div>
-      <div className="flex-none bg-[#36393f]">
-        <SearchBox/>
+      <div className=" flex-grow">
+        <Outlet/>
       </div>
-      <div className="flex-grow">
-        <section className="bg-green-300  w-full h-full">
-          <ActivityArea/>
-        </section>
-      </div>
-     
     </div>
 
   )

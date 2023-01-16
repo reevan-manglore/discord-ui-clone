@@ -4,7 +4,7 @@ import NoFriendsFound from "./NoFriendsFound"
 import AddFriend from "./AddFriend"
 import { Outlet } from "react-router"
 
-function ActivityArea() {
+function HomeActivityArea() {
   return (
    <section className="bg-[#292b2f] h-full flex flex-col ">
     <Navbar/>
@@ -26,4 +26,4 @@ function ActivityArea() {
   )
 }
 
-export default ActivityArea
+export default HomeActivityArea

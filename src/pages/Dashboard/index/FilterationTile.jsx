@@ -1,6 +1,6 @@
 import React from 'react'
 
-function QuickSearchTile({icon,label,isSelected,onPressed}) {
+function FilterationTile({icon,label,isSelected,onPressed}) {
   return (
    <button 
   
@@ -13,4 +13,4 @@ function QuickSearchTile({icon,label,isSelected,onPressed}) {
   )
 }
 
-export default QuickSearchTile
+export default FilterationTile

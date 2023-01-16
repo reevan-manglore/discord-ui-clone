@@ -1,5 +1,5 @@
 import React from 'react'
-import noOnlineFriends from "../../assets/no_online_friends.svg"
+import noOnlineFriends from "../../../assets/no_online_friends.svg"
 
 
 function NoFriendsFound() {

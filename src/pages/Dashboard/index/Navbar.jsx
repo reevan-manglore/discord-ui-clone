@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import friends from "../../assets/person.svg";
+import friends from "../../../assets/person.svg";
 
 
 function Navbar() {
@@ -40,7 +40,7 @@ function Navbar() {
                         ({isActive})=>
                         isActive?"px-2 py-0.5 rounded text-[#3ba55d] text-base"
                         :
-                        "px-2 py-0.5 rounded bg-[#3ba55d] text-base text-white"
+                        "px-2 py-0.5 rounded bg-[#3ba55d] hover:bg-[#3ba55d]/60 text-base text-white"
                     } 
                 >
                     Add Friend
